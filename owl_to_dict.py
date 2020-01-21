@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-import sys
 import argparse
 import configparser
-import urllib.request
-import os
 import logging
-import xml.etree.ElementTree as ET
+import os
+import sys
+import urllib.request
+import owlready2
 import networkx
-import obonet
+import xml.etree.ElementTree as ET
 
 
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
@@ -70,37 +70,38 @@ def Main(parameters):
     #dict_to_gate_gazetter(dict_output_file, dict_output_file.replace(".txt",".lst"))
       
 def owl_to_dict(owl_file, output_dict_file_path):
-    logging.info("owl_to_dict " )
+    logging.info("owl_to_dict")
     terms_list = []
     with open(output_dict_file_path,'w') as dict: 
         dict.write('INTERNAL_CODE\tTERM\tLABEL\n')
         #obonet is used for Obo format.
         #In this case we have to convert form owl and for that you have to use Owlready2 to iterate over the ontology and generate a txt dictionary.
         #https://pypi.org/project/Owlready2/ 
-        graph = obonet.read_obo(owl_file)
-        internal_code = 1
-        id_to_name = {id_: data for id_, data in graph.nodes(data=True)}
-        for node in graph.nodes(data=True):
-            id = node[0]
-            data = node[1]
-            term = data['name'].lower()
+        graph = owlready2.get_ontology(owl_file)
+        graph.save()
+    #     internal_code = 1
+    #     id_to_name = {id_: data for id_, data in graph.nodes(data=True)}
+    #     for node in graph.nodes(data=True):
+    #         id = node[0]
+    #         data = node[1]
+    #         term = data['name'].lower()
             
-            #print node in dictionary
-            parents = networkx.descendants(graph, id)
-            label_map = owl_to_dict_label_mapping.get(id)
-            if(label_map is None): #look for nearest parent in the owl_to_dict_label_mapping 
-                for id_parent in parents:
-                    label_map = owl_to_dict_label_mapping.get(id_parent)    
-                    if(label_map is not None):
-                        break
-            if(label_map is None):
-                label_map = ' '
-            terms_list.append(name)
-            dict.write(str(internal_code) +'\t'+name+'\t'+label_map+'\n')    
-            internal_code = internal_code + 1
+    #         #print node in dictionary
+    #         parents = networkx.descendants(graph, id)
+    #         label_map = owl_to_dict_label_mapping.get(id)
+    #         if(label_map is None): #look for nearest parent in the owl_to_dict_label_mapping 
+    #             for id_parent in parents:
+    #                 label_map = owl_to_dict_label_mapping.get(id_parent)    
+    #                 if(label_map is not None):
+    #                     break
+    #         if(label_map is None):
+    #             label_map = ' '
+    #         terms_list.append(name)
+    #         dict.write(str(internal_code) +'\t'+name+'\t'+label_map+'\n')    
+    #         internal_code = internal_code + 1
             
-            dict.flush()   
-    logging.info(" Process end" )
+    #         dict.flush()   
+    # logging.info(" Process end" )
         
 def dict_to_gate_gazetter(file, file_new):
     with open(file,'r') as dictionary:

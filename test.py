@@ -26,3 +26,14 @@ for i in classes:
         dict[i]=list(i.subclasses())
 print(dict)
 
+
+dict2 = dict.fromkeys(["DEB_20191001.Biomaterial","DEB_20191001.BiomaterialType",
+  "BiologicallyActiveSubstance","ManufacturedObject","ManufacturedObjectComponent","MedicalApplication",
+  "EffectOnBiologicalSystem","AdverseEffects","AssociatedBiologicalProcess","Structure","Shape","ArchitecturalOrganization",
+  "DegradationFeatures","ManufacturedObjectFeatures", "MaterialProcessing","StudyType","CellType", "Other"])
+ont_classes = onto.classes()
+for x in ont_classes:
+    id = x.name.replace('_',':')
+    superclasses = [i for i in x.is_a if not isinstance(i,owlready2.entity.Restriction)]
+    print (id, superclasses)
+

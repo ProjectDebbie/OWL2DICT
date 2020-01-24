@@ -1,4 +1,4 @@
-TERM	LABEL
+TERM	LABEL	SYNONYMS
 MaterialProcessing	LABEL=MaterialProcessing
 ArchitecturalOrganization	LABEL=ArchitecturalOrganization
 StructuralDetails	LABEL=ManufacturedObjectFeatures

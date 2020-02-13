@@ -17,8 +17,7 @@ file_name = "DEB_20191001."
 removal = ["[", file_name, "]"]
 with open("test",'w') as f: 
     f.write('TERM\tLABEL\n')
-#return dictionary of class : all subclasses
-#if class is subclassof another class, only include in parent 
+#two dictionaries will be identical, third will be the final one with changes
     dict1 = {}
     dict2 = {}
     dict3 = {}

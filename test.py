@@ -9,10 +9,12 @@ from owlready2 import get_ontology
 import re
 
 #load in owl ontology
-file = "DEB_20191001.owl"
-onto = get_ontology(file).load()
+file = "DEB_20200118.owl"
 #remove "owl" from file name, keep "."
 file_name = file[:-3]
+#load ontology 
+onto = get_ontology(file).load()
+#owlready doesn't automatically remove these special characters or the file name from class names
 removal = ["[", file_name, "]", " "]
 with open("test",'w') as f: 
     f.write('TERM\tLABEL\tPATH\tSYNONYMS\n')
@@ -23,6 +25,7 @@ with open("test",'w') as f:
     dict1 = {}
     dict2 = {}
     dict3 = {}
+#list of superclasses
     superclass_list = ["Biomaterial","BiomaterialType",
   "BiologicallyActiveSubstance","ManufacturedObject","ManufacturedObjectComponent",
   "MedicalApplication","EffectOnBiologicalSystem","AdverseEffects","AssociatedBiologicalProcess",

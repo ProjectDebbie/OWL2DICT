@@ -8,8 +8,8 @@ import owlready2
 from owlready2 import get_ontology
 import re
 
-#load in owl ontology
-file = "DEB_20200118.owl"
+#get filename
+path, file = os.path.split("DEB_20200118.owl")
 #remove "owl" from file name, keep "."
 file_name = file[:-3]
 #load ontology 

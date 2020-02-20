@@ -8,8 +8,9 @@ import owlready2
 from owlready2 import get_ontology
 import re
 
+max_depth = 3
 #get filename
-path, file = os.path.split("DEB_20200118.owl")
+path, file = os.path.split("austin_test.owl")
 #remove "owl" from file name, keep "."
 file_name = file[:-3]
 #load ontology 
@@ -29,7 +30,7 @@ with open("test",'w') as f:
     superclass_list = ["Biomaterial","BiomaterialType",
   "BiologicallyActiveSubstance","ManufacturedObject","ManufacturedObjectComponent",
   "MedicalApplication","EffectOnBiologicalSystem","AdverseEffects","AssociatedBiologicalProcess",
-  "Structure","Shape","ArchitecturalOrganization","DegradationFeatures",
+  "Structure","ArchitecturalOrganization","DegradationFeatures",
   "ManufacturedObjectFeatures","MaterialProcessing","StudyType","CellType"]
     ont_classes = onto.classes()
     for x in ont_classes:
@@ -60,18 +61,32 @@ with open("test",'w') as f:
 #now we retrieve their superparent class
     for k, v in dict2.items():
         ontology_path[k]=[v]
-        if v in superclass_list:
-            dict3[k] = v
-        else: 
-            dict3[k]=dict1.get(v)
-            ontology_path[k].append(dict1.get(v))
-            for x,y in dict3.items():
-                if y not in superclass_list:
-                    dict3[k]=dict1.get(y)
-                    ontology_path[k].append(dict1.get(y))
+        term = k
+        parent = v
+        for term in dict2.keys():
+            if parent in superclass_list:
+                dict3[term]=parent
+            else:
+                variable = parent
+                if variable == k:
+                    dict3[term]=v
+    print(dict3)
+#     for k, v in dict2.items():
+#         ontology_path[k]=[v]
+#         if v in superclass_list:
+#             dict3[k] = v      
+#         else: 
+#             dict3[k]=dict2.get(v)
+#             ontology_path[k].append(dict2.get(v))
+#             for x,y in dict3.items():
+#                 while y in superclass_list:
+#                     break
+#                 else:
+#                     dict3[k]=dict2.get(y)
+#                     ontology_path[k].append(dict2.get(y))
 #merge synoynm, ontology_path, and dict3 dictionaries into NEW dictionary
     merged = {key: (value1, value2, value3) for key, value1, value2, value3 in zip(dict3.keys(), dict3.values(), ontology_path.values(), synonyms.values())}
-#print new dictionary
+ #print new dictionary
     for k, v in merged.items():
         f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
 

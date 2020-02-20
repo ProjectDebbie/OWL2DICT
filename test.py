@@ -14,7 +14,7 @@ path, file = os.path.split("DEB_20200118.owl")
 file_name = file[:-3]
 #load ontology 
 onto = get_ontology(file).load()
-#owlready doesn't automatically remove these special characters or the file name from class names
+#owlready doesn't automatically remove these special characters or the file name from class name
 removal = ["[", file_name, "]", " "]
 with open("test",'w') as f: 
     f.write('TERM\tLABEL\tPATH\tSYNONYMS\n')

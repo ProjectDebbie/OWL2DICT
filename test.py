@@ -8,7 +8,6 @@ import owlready2
 from owlready2 import get_ontology
 import re
 
-max_depth = 3
 #get filename
 path, file = os.path.split("austin_test.owl")
 #remove "owl" from file name, keep "."
@@ -23,14 +22,13 @@ with open("test",'w') as f:
     synonyms = {}
     ontology_path = {}
 #two dictionaries will be identical, third will be the final one with changes
-    dict1 = {}
-    dict2 = {}
-    dict3 = {}
+    dict_all_terms = {}
+    dict_superclasses = {}
 #list of superclasses
     superclass_list = ["Biomaterial","BiomaterialType",
   "BiologicallyActiveSubstance","ManufacturedObject","ManufacturedObjectComponent",
   "MedicalApplication","EffectOnBiologicalSystem","AdverseEffects","AssociatedBiologicalProcess",
-  "Structure","ArchitecturalOrganization","DegradationFeatures",
+  "Structure","Shape","ArchitecturalOrganization","DegradationFeatures",
   "ManufacturedObjectFeatures","MaterialProcessing","StudyType","CellType"]
     ont_classes = onto.classes()
     for x in ont_classes:
@@ -42,35 +40,35 @@ with open("test",'w') as f:
 #if term is in superclass_list, term is superlclass (i.e. Biomaterial = Biomaterial)
         if len(class_list)==1:
             if id in superclass_list:
-                dict1[id]=id
-                dict2[id]=id
+                dict_all_terms[id]=id
             else:
                 for term in removal:
                     c = str(class_list)
                     d = re.sub(r'|'.join(map(re.escape, removal)), '', c)
-                    dict1[id]=d
-                    dict2[id]=d
+                    dict_all_terms[id]=d
 #if term is not in super class list
 # # #if length is more than 1, owl.Thing is [0]
         else:
             a = str(class_list[1:2]).split("&")
             b = [re.sub(r'|'.join(map(re.escape, removal)), '', a[0])]
-            dict1[id]=b[0]
-            dict2[id]=b[0]
+            dict_all_terms[id]=b[0]
 #we have all terms and their direct parent class
 #now we retrieve their superparent class
-    for k, v in dict2.items():
+    for k, v in dict_all_terms.items():
         ontology_path[k]=[v]
         term = k
         parent = v
-        for term in dict2.keys():
-            if parent in superclass_list:
-                dict3[term]=parent
+        variable = None
+        if parent in superclass_list:
+            dict_superclasses[k]=parent
+        else:
+            variable = dict_all_terms.get(parent)
+            ontology_path[k].append(variable)
+            while variable not in superclass_list:
+                variable = dict_all_terms.get(variable)
+                ontology_path[k].append(variable)
             else:
-                variable = parent
-                if variable == k:
-                    dict3[term]=v
-    print(dict3)
+                dict_superclasses[term] = variable
 #     for k, v in dict2.items():
 #         ontology_path[k]=[v]
 #         if v in superclass_list:
@@ -85,7 +83,7 @@ with open("test",'w') as f:
 #                     dict3[k]=dict2.get(y)
 #                     ontology_path[k].append(dict2.get(y))
 #merge synoynm, ontology_path, and dict3 dictionaries into NEW dictionary
-    merged = {key: (value1, value2, value3) for key, value1, value2, value3 in zip(dict3.keys(), dict3.values(), ontology_path.values(), synonyms.values())}
+    merged = {key: (value1, value2, value3) for key, value1, value2, value3 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values())}
  #print new dictionary
     for k, v in merged.items():
         f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')

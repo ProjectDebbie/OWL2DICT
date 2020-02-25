@@ -14,14 +14,15 @@ path, file = os.path.split("austin_test.owl")
 file_name = file[:-3]
 #load ontology 
 onto = get_ontology(file).load()
-#owlready doesn't automatically remove these special characters or the file name from class name
-removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)']
+#owlready doesn't automatically remove these special characters or the file name
+removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)', '.some(None)']
 with open("test",'w') as f: 
     f.write('TERM\tLABEL\tPATH\tSYNONYMS\tPROPERTIES\n')
-#create dictionaries for synonyms and all classes of individual terms
+#create dictionaries for synonyms, all classes of individual terms, and properties
     synonyms = {}
     ontology_path = {}
     properties = {}
+    new_prop_lines={}
 #two dictionaries will be identical, third will be the final one with changes
     dict_all_terms = {}
     dict_superclasses = {}
@@ -72,29 +73,21 @@ with open("test",'w') as f:
                 ontology_path[k].append(variable)
             else:
                 dict_superclasses[term] = variable
-#     for k, v in dict2.items():
-#         ontology_path[k]=[v]
-#         if v in superclass_list:
-#             dict3[k] = v      
-#         else: 
-#             dict3[k]=dict2.get(v)
-#             ontology_path[k].append(dict2.get(v))
-#             for x,y in dict3.items():
-#                 while y in superclass_list:
-#                     break
-#                 else:
-#                     dict3[k]=dict2.get(y)
-#                     ontology_path[k].append(dict2.get(y))
 #merge synoynm, ontology_path, and dict3 dictionaries into NEW dictionary
     merged = {key: [value1, value2, value3] for key, value1, value2, value3 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values())}
+#add dictionary of properties to merged
     for id, value in properties.items():
         merged[id].append(value)
-#print new dictionary
+#ONLY for terms with properties listed, I want to add an additional k:v where the property(v[3]) is the key
     for k, v in merged.items():
         if len(v)==4:
+            new_prop_lines.update({v[3]:[v[0],v[1],v[2],k]})
             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
+            f.write(str(v[3])+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+k+'\n')
         if len(v)==3:
             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
+    merged.update(new_prop_lines)
+    print(merged)
 
 
 

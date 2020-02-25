@@ -15,12 +15,13 @@ file_name = file[:-3]
 #load ontology 
 onto = get_ontology(file).load()
 #owlready doesn't automatically remove these special characters or the file name from class name
-removal = ["[", file_name, "]", " "]
+removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)']
 with open("test",'w') as f: 
-    f.write('TERM\tLABEL\tPATH\tSYNONYMS\n')
+    f.write('TERM\tLABEL\tPATH\tSYNONYMS\tPROPERTIES\n')
 #create dictionaries for synonyms and all classes of individual terms
     synonyms = {}
     ontology_path = {}
+    properties = {}
 #two dictionaries will be identical, third will be the final one with changes
     dict_all_terms = {}
     dict_superclasses = {}
@@ -51,7 +52,9 @@ with open("test",'w') as f:
         else:
             a = str(class_list[1:2]).split("&")
             b = [re.sub(r'|'.join(map(re.escape, removal)), '', a[0])]
+            onProperty = [re.sub(r'|'.join(map(re.escape, removal)), '', a[1])]
             dict_all_terms[id]=b[0]
+            properties[id]=onProperty[0]
 #we have all terms and their direct parent class
 #now we retrieve their superparent class
     for k, v in dict_all_terms.items():
@@ -83,10 +86,15 @@ with open("test",'w') as f:
 #                     dict3[k]=dict2.get(y)
 #                     ontology_path[k].append(dict2.get(y))
 #merge synoynm, ontology_path, and dict3 dictionaries into NEW dictionary
-    merged = {key: (value1, value2, value3) for key, value1, value2, value3 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values())}
- #print new dictionary
+    merged = {key: [value1, value2, value3] for key, value1, value2, value3 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values())}
+    for id, value in properties.items():
+        merged[id].append(value)
+#print new dictionary
     for k, v in merged.items():
-        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
+        if len(v)==4:
+            f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
+        if len(v)==3:
+            f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
 
 
 

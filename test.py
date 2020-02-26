@@ -23,6 +23,7 @@ with open("test",'w') as f:
     ontology_path = {}
     properties = {}
     new_prop_lines={}
+    merged ={}
 #two dictionaries will be identical, third will be the final one with changes
     dict_all_terms = {}
     dict_superclasses = {}
@@ -39,6 +40,7 @@ with open("test",'w') as f:
         synonyms[id] = synonym
         classes = [i for i in x.is_a]
         class_list = list(classes)
+        properties[id]=''
 #if term is in superclass_list, term is superlclass (i.e. Biomaterial = Biomaterial)
         if len(class_list)==1:
             if id in superclass_list:
@@ -74,20 +76,31 @@ with open("test",'w') as f:
             else:
                 dict_superclasses[term] = variable
 #merge synoynm, ontology_path, and dict3 dictionaries into NEW dictionary
-    merged = {key: [value1, value2, value3] for key, value1, value2, value3 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values())}
-#add dictionary of properties to merged
-    for id, value in properties.items():
-        merged[id].append(value)
-#ONLY for terms with properties listed, I want to add an additional k:v where the property(v[3]) is the key
-    for k, v in merged.items():
-        if len(v)==4:
-            new_prop_lines.update({v[3]:[v[0],v[1],v[2],k]})
-            f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
-            f.write(str(v[3])+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+k+'\n')
-        if len(v)==3:
-            f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
-    merged.update(new_prop_lines)
+    merged.update({key: [value1, value2, value3, value4] for key, value1, value2, value3, value4 in zip(dict_superclasses.keys(), dict_superclasses.values(), ontology_path.values(), synonyms.values(), properties.values())})
+#if key has a propery associated, I want to create new line with property as key
+    for k,v in list(merged.items()):
+        if len(v[3]) is not 0:
+            merged.update({v[3]:[v[0],v[1],v[2],k]})
+#print to file
+    for k,v in merged.items():
+        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
     print(merged)
+
+
+
+
+#add dictionary of properties to merged
+#     for id, value in properties.items():
+#         merged[id].append(value)
+# #ONLY for terms with properties listed, I want to add an additional k:v where the property(v[3]) is the key
+#     for k, v in merged.items():
+#         if len(v)==4:
+#             new_prop_lines.update({v[3]:[v[0],v[1],v[2],k]})
+#             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
+#             f.write(str(v[3])+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+k+'\n')
+#         if len(v)==3:
+#             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
+#     merged.update(new_prop_lines)
 
 
 

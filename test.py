@@ -9,7 +9,7 @@ from owlready2 import get_ontology
 import re
 
 #get filename
-path, file = os.path.split("austin_test.owl")
+path, file = os.path.split("DEB_20200220.owl")
 #remove "owl" from file name, keep "."
 file_name = file[:-3]
 #load ontology 

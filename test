@@ -54,6 +54,8 @@ Biomineralization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalP
 Biopolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']		
 Blend	LABEL=BiomaterialType	PATH=['BiomaterialType']		
 Braiding	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		braided
+CPC	LABEL=Biomaterial	PATH=['Biomaterial']	CalciumPhosphateCement	
+CalciumPhosphateCement	LABEL=Biomaterial	PATH=['Biomaterial']		
 CapCoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']		
 Capsule	LABEL=Structure	PATH=['Structure']		
 CartilageAutograftImplantationSystem	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']		
@@ -174,6 +176,7 @@ InVivo	LABEL=StudyType	PATH=['StudyType']
 InflammatoryReaction	LABEL=AdverseEffects	PATH=['AdverseEffects']		
 InterconnectedPoreNetwork	LABEL=ManufacturedObjectFeatures	PATH=['Pore', 'StructuralDetails', 'ManufacturedObjectFeatures']		
 Pore	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']		
+Interconnectivity	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']		
 Knitting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		knitted
 LaparoscopicIntraperitonealImplantation	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']		
 Lattice	LABEL=Structure	PATH=['Structure']		
@@ -182,6 +185,8 @@ Layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']
 LayeredClosure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']		
 LipoaspirateFat	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']		
 Macropore	LABEL=ManufacturedObjectFeatures	PATH=['Pore', 'StructuralDetails', 'ManufacturedObjectFeatures']		macroporous
+Macroporosity	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		macroporous
+Porosity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']		
 Manufacture	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		
 Mat	LABEL=Structure	PATH=['Structure']		
 Matrice	LABEL=Structure	PATH=['Structure']		
@@ -189,6 +194,7 @@ MatrixDeposition	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalPr
 MatrixSynthesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']		
 Membrane	LABEL=Structure	PATH=['Structure']		
 Mesh	LABEL=Structure	PATH=['Structure']		
+Mesoporosity	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		mesoporous
 Metal	LABEL=BiomaterialType	PATH=['BiomaterialType']		
 Microbead	LABEL=Structure	PATH=['Structure']		
 Microcarrier	LABEL=MedicalApplication	PATH=['MedicalApplication']		
@@ -196,6 +202,7 @@ Microfiber	LABEL=Structure	PATH=['Fiber', 'Structure']	Microfibre	microfibrous
 Microfibre	LABEL=Structure	PATH=['Fiber', 'Structure']		
 Microgel	LABEL=Structure	PATH=['Gel', 'Structure']		
 Microparticle	LABEL=Structure	PATH=['Structure']		
+Microporosity	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		microporous
 Microsphere	LABEL=Structure	PATH=['Structure']		
 MolarMass	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']		
 MolecularStructure	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']		
@@ -263,7 +270,6 @@ Polymerization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		polymerized
 Polytetrafluoroethylene	LABEL=Biomaterial	PATH=['Biomaterial']	Teflon	
 Teflon	LABEL=Biomaterial	PATH=['Biomaterial']		
 PoreSize	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		
-Porosity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']		
 Precoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']		precoated
 Preconditioning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		preconditioned
 Printing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		
@@ -321,8 +327,6 @@ Wire	LABEL=Structure	PATH=['Structure']
 WoundAbscesses	LABEL=AdverseEffects	PATH=['AdverseEffects']		
 WoundDressing	LABEL=MedicalApplication	PATH=['MedicalApplication']		
 Wrapped	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']		
-austin1	LABEL=Shape	PATH=['Nanorod', 'Rod', 'Shape']		
-austin2	LABEL=Shape	PATH=['Nanorod', 'Rod', 'Shape']		
 bioprinting	LABEL=MaterialProcessing	PATH=['Printing', 'MaterialProcessing']		bioprinted
 osteogenicity	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']		
 2-Layer	LABEL=Structure	PATH=['Structure']		
@@ -348,8 +352,10 @@ foamed	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		Foaming
 hydrated	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		Hydration
 hydrophilic	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']		SurfaceHydrophilicity
 knitted	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		Knitting
-macroporous	LABEL=ManufacturedObjectFeatures	PATH=['Pore', 'StructuralDetails', 'ManufacturedObjectFeatures']		Macropore
+macroporous	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		Macroporosity
+mesoporous	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		Mesoporosity
 microfibrous	LABEL=Structure	PATH=['Fiber', 'Structure']	Microfibre	Microfiber
+microporous	LABEL=ManufacturedObjectFeatures	PATH=['Porosity', 'PhysicalProperty', 'ManufacturedObjectFeatures']		Microporosity
 perforated	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		Perforation
 photocrosslinked	LABEL=MaterialProcessing	PATH=['Crosslinking', 'MaterialProcessing']		Photocrosslinking
 plasma_treated	LABEL=MaterialProcessing	PATH=['MaterialProcessing']		PlasmaTreatment

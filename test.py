@@ -15,9 +15,8 @@ file_name = file[:-3]
 #load ontology 
 onto = get_ontology(file).load()
 #owlready doesn't automatically remove these special characters or the file name
-removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)', '.some(None)']
+removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)', '.some(None)', "_"]
 with open("test",'w') as f: 
-    f.write('TERM\tLABEL\tPATH\tSYNONYMS\tPROPERTIES\n')
 #create dictionaries for synonyms, all classes of individual terms, and properties
     synonyms = {}
     ontology_path = {}
@@ -81,9 +80,24 @@ with open("test",'w') as f:
     for k,v in list(merged.items()):
         if len(v[3]) is not 0:
             merged.update({v[3]:[v[0],v[1],v[2],k]})
-#print to file
+#clean terms
     for k,v in merged.items():
-        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
+#         cleaned_terms = []
+#         #keep acronyms, number+letter (e.g. 3d), keep correct spacing with hyphens
+#         if k.isupper() == True:
+#             x = k + '\t'
+#             cleaned_terms.append(x.lower())             
+#         elif bool(re.match('3D', k)) == True:
+#             pass
+#         elif bool(re.match(r"([-])", r" \1")):
+#             pass
+#         else:    
+#             clean_k = re.sub(r"([A-Z])", r" \1", k).split()
+#             m = ' '.join(clean_k)
+#             m = m + '\t'
+#             cleaned_terms.append(m.lower())
+#         print(cleaned_terms)
+        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+'SYNONYM='+str(v[2])+'\t'+'PROPERTY='+str(v[3])+'\n')
     print(merged)
 
 

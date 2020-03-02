@@ -16,12 +16,11 @@ file_name = file[:-3]
 onto = get_ontology(file).load()
 #owlready doesn't automatically remove these special characters or the file name
 removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)', '.some(None)', "_"]
-with open("test",'w') as f: 
+with open("output.txt",'w') as f: 
 #create dictionaries for synonyms, all classes of individual terms, and properties
     synonyms = {}
     ontology_path = {}
     properties = {}
-    new_prop_lines={}
     merged ={}
 #two dictionaries will be identical, third will be the final one with changes
     dict_all_terms = {}
@@ -82,40 +81,16 @@ with open("test",'w') as f:
             merged.update({v[3]:[v[0],v[1],v[2],k]})
 #clean terms
     for k,v in merged.items():
-#         cleaned_terms = []
-#         #keep acronyms, number+letter (e.g. 3d), keep correct spacing with hyphens
-#         if k.isupper() == True:
-#             x = k + '\t'
-#             cleaned_terms.append(x.lower())             
-#         elif bool(re.match('3D', k)) == True:
-#             pass
-#         elif bool(re.match(r"([-])", r" \1")):
-#             pass
-#         else:    
-#             clean_k = re.sub(r"([A-Z])", r" \1", k).split()
-#             m = ' '.join(clean_k)
-#             m = m + '\t'
-#             cleaned_terms.append(m.lower())
-#         print(cleaned_terms)
+        if k.isupper() == True:
+            k = k + '\t'
+        else:    
+            clean_k = re.sub(r"([A-Z])",r" \1", k).split()
+            k = ' '.join(clean_k)
+            k = k + '\t'
+            k = k.replace("3 D", "3D")
+            k = k.replace("- ", "-")
         f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+'SYNONYM='+str(v[2])+'\t'+'PROPERTY='+str(v[3])+'\n')
     print(merged)
-
-
-
-
-#add dictionary of properties to merged
-#     for id, value in properties.items():
-#         merged[id].append(value)
-# #ONLY for terms with properties listed, I want to add an additional k:v where the property(v[3]) is the key
-#     for k, v in merged.items():
-#         if len(v)==4:
-#             new_prop_lines.update({v[3]:[v[0],v[1],v[2],k]})
-#             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+str(v[3])+'\n')
-#             f.write(str(v[3])+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\t'+k+'\n')
-#         if len(v)==3:
-#             f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+str(v[2])+'\n')
-#     merged.update(new_prop_lines)
-
 
 
             

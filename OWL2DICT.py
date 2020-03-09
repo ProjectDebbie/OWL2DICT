@@ -16,7 +16,7 @@ file_name = file[:-3]
 onto = get_ontology(file).load()
 #owlready doesn't automatically remove these special characters or the file name
 removal = ["[", file_name, "]", " ", '.value(True)', '.some(True)', '.some(None)', "_"]
-with open("output.txt",'w') as f: 
+with open("DEB_ONTOLOGY.txt",'w') as f: 
 #create dictionaries for synonyms, all classes of individual terms, and properties
     synonyms = {}
     ontology_path = {}
@@ -81,15 +81,31 @@ with open("output.txt",'w') as f:
             merged.update({v[3]:[v[0],v[1],v[2],k]})
 #clean terms
     for k,v in merged.items():
+        synonym = v[2]
+        property = v[3]
         if k.isupper() == True:
             k = k + '\t'
+        elif synonym.isupper() == True:
+            synonym = synonym + '\t'
+        elif property.isupper() == True:
+            property= property + '\t'
         else:    
             clean_k = re.sub(r"([A-Z])",r" \1", k).split()
+            clean_synonym = re.sub(r"([A-Z])",r" \1", synonym).split()
+            clean_property = re.sub(r"([A-Z])",r" \1", property).split()
             k = ' '.join(clean_k)
             k = k + '\t'
             k = k.replace("3 D", "3D")
             k = k.replace("- ", "-")
-        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+'SYNONYM='+str(v[2])+'\t'+'PROPERTY='+str(v[3])+'\n')
+            synonym = ' '.join(clean_synonym)
+            synonym = synonym + '\t'
+            synonym = synonym.replace("3 D", "3D")
+            synonym = synonym.replace("- ", "-")
+            property = ' '.join(clean_property)
+            property = property + '\t'
+            property = property.replace("3 D", "3D")
+            property = property.replace("- ", "-")
+        f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+'SYNONYM='+str(synonym)+'\t'+'PROPERTY='+str(property)+'\n')
     print(merged)
 
 

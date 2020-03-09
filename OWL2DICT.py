@@ -84,27 +84,27 @@ with open("DEB_ONTOLOGY.txt",'w') as f:
         synonym = v[2]
         property = v[3]
         if k.isupper() == True:
-            k = k + '\t'
+            k=k
         elif synonym.isupper() == True:
-            synonym = synonym + '\t'
+            synonym=synonym
         elif property.isupper() == True:
-            property= property + '\t'
+            property=property
         else:    
             clean_k = re.sub(r"([A-Z])",r" \1", k).split()
             clean_synonym = re.sub(r"([A-Z])",r" \1", synonym).split()
             clean_property = re.sub(r"([A-Z])",r" \1", property).split()
             k = ' '.join(clean_k)
-            k = k + '\t'
             k = k.replace("3 D", "3D")
             k = k.replace("- ", "-")
+            k = k.lower()
             synonym = ' '.join(clean_synonym)
-            synonym = synonym + '\t'
             synonym = synonym.replace("3 D", "3D")
             synonym = synonym.replace("- ", "-")
+            synonym = synonym.lower()
             property = ' '.join(clean_property)
-            property = property + '\t'
             property = property.replace("3 D", "3D")
             property = property.replace("- ", "-")
+            property = property.lower()
         f.write(k+'\t'+'LABEL='+str(v[0])+'\t'+'PATH='+str(v[1])+'\t'+'SYNONYM='+str(synonym)+'\t'+'PROPERTY='+str(property)+'\n')
     print(merged)
 

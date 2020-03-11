@@ -1,20 +1,51 @@
 # OWL2DICT
 
-Web Ontology Language (OWL) files have become a popular format for biomedical ontologies. OWL format provides many benefits for annotation purposes such as reasoning and quantified relationships. Tools, such as OWLREADY and OWLREADY2, have allowed for OWL ontology exploration and modification via Python.
+Web Ontology Language (OWL) files are a popular format for biomedical ontologies. OWL format contains reasoning and quantified relationships. Tools, such as OWLREADY and OWLREADY2 can be used for OWL ontology exploration and modification. 
 
-However, no tool has been available to extract these meaningful relationships in order to annotate files. By default, OWL files provide information on a term's immediate parent class, but not on higher levels. These higher levels, or superclasses, are often used for annotation categories. Therefore, it is necessary to extract terms and their superclasses. 
+For annotation tasks, and especially when using GATE, it is often necessary to convert ontologies to dictionaries. By default, when converting OWL files to dictionaries (for example: using Protege), the term's immediate parent class or the top superclass are automatically used as labels. However, in reality, and espeicially in complex ontologies with many levels, the user may want to use other higher level superclasses as labels.
 
-After the user inputs a list containing the superclasses in their designated file, OWL2DICT maps out the entire OWL file to retrieve each term's superclass. OWL2DICT also retrieves each individual class that a term belongs to, and any associated synonyms and/or properties.
+The aim of OWL2DICT is to enable users to create a dictionary from owl files. The user can choose classes he would like as labels, and the tool will collect all children of this class as terms.    
 
-The output of OWL2DICT is a txt file that is ready to be uploaded to GATE, or a similar annotation program.    
+The input of this tool is a list containing the desired labels (classes) in a designated file. OWL2DICT maps out the entire OWL file to retrieve all the child terms for the provided classes. OWL2DICT also retrieves any associated synonyms and/or properties for retrieved child terms.
+
+In case a class of interest (ie a label) is within a different class of interest, OWL2DICT will label a term with its nearest parent. 
+
+
+The output of OWL2DICT is a dictionary object in .txt file format. 
 
 ### Prerequisites
 
 Python 3+, argparse, configparser, logging, os, sys, owlready2, re
 
+### Example
+
+Food ontology:
+
+Food
+  Italian
+    Pizza
+      Margarita
+      Capressa
+    Pasta
+  Japanese
+    Sushi
+    Udon
+    
+Requested labels: Italian, Japanese, Pizza 
+
+Resulting Dictionary:
+
+Pizza      Label: Italian
+Margarita    Label: Pizza
+Capressa    Label: Pizza
+Pasta    Label: Italian
+Sushi    Label: Japanese
+Udon    Label: Japanese
+
 ## Authors
 
-* **Austin McKitrick** 
+**Austin McKitrick, Javi Corvi and Osnat Hakimi** 
+
 
 
 ## License
@@ -23,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Work inspired by Javi Corvi's send\_terminology\_retrieval tool (https://github.com/javicorvi/send\_terminology\_retrieval)
+* This tool is related to Javi Corvi's send\_terminology\_retrieval tool (https://github.com/javicorvi/send\_terminology\_retrieval)

@@ -1,6 +1,6 @@
 # OWL2DICT
 
-Web Ontology Language (OWL) files are a popular format for biomedical ontologies. OWL format contains reasoning and quantified relationships. Tools, such as OWLREADY and OWLREADY2 can be used for OWL ontology exploration and modification. 
+Web Ontology Language (OWL) files are a popular format for ontologies. OWL format contains reasoning and quantified relationships. Tools, such as OWLREADY and OWLREADY2 can be used for OWL ontology exploration and modification. 
 
 For annotation tasks, and especially when using GATE, it is often necessary to convert ontologies to dictionaries. By default, when converting OWL files to dictionaries (for example: using Protege), the term's immediate parent class or the top superclass are automatically used as labels. However, in reality, and espeicially in complex ontologies with many levels, the user may want to use other higher level superclasses as labels.
 

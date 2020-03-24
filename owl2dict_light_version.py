@@ -28,9 +28,9 @@ for c in class_list:
     ancestors = list(c.ancestors())
     print(ancestors)
     for a in ancestors:
-        x = a.label
+        x = str(a.label)
         for term, label in wanted_classes_and_new_labels.items():
-            if term in str(x) and c not in relevant_terms:
+            if term == x[2:-2] and c not in relevant_terms:
                 relevant_terms.append(c)
                 with open(new_dictionary, 'a') as n:
                     n.write(c.label[0] + '\t' + 'LABEL=' + label + '\n')

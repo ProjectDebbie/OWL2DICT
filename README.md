@@ -11,7 +11,12 @@ The input of this tool is a list containing the desired labels (classes) in a de
 In case a class of interest (ie a label) is within a different class of interest, OWL2DICT will label a term with its nearest parent. 
 
 
-The output of OWL2DICT is a dictionary object in .txt file format. 
+The output of OWL2DICT is a dictionary object in .txt file format.
+
+## OWL2DICT Light
+
+Thw OWL2DICT light is a simpler implementation of owlready2. It retrieves all classes (but no properties) for given ancestors  from an .owl ontology provided locally. It labels each class with provided 'new labels', creating a .txt dictionary in the same format shown below. 
+
 
 ### Prerequisites
 

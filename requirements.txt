@@ -1,0 +1,4 @@
+argparse
+configparser
+logging
+owlready2

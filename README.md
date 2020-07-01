@@ -6,7 +6,7 @@ For annotation tasks, and especially when using GATE, it is often necessary to c
 
 The aim of OWL2DICT is to enable users to create a dictionary from owl files. The user can choose classes he would like as labels, and the tool will collect all children of this class as terms.    
 
-The input of this tool is a list containing the desired labels (classes) in a designated file. OWL2DICT maps out the entire OWL file to retrieve all the child terms for the provided classes. OWL2DICT also retrieves any associated synonyms and/or properties for retrieved child terms.
+The input of this tool is a list containing the desired labels (classes) in a designated file. OWL2DICT maps out the entire OWL file to retrieve all the child terms for the provided classes. Importantly, and unlike the OWL2DICT Light, OWL2DICT also retrieves any associated synonyms, alternative labels and properties for retrieved child terms.
 
 In case a class of interest (ie a label) is within a different class of interest, OWL2DICT will label a term with its nearest parent. 
 

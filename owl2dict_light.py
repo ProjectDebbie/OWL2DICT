@@ -33,8 +33,24 @@ for c in class_list:
             if term == x[2:-2] and c not in relevant_terms:
                 relevant_terms.append(c)
                 with open(new_dictionary, 'a') as n:
-                    n.write(c.label[0] + '\t' + 'LABEL=' + label + '\n')
+                    n.write(c.label[0] + '\t' + 'LABEL=' + label + '\t' + 'ID=' + str(c) + '\n')
 
 
 
+#add synonyms and their preferred label
+for c in relevant_terms:
+    ancestors = list(c.ancestors())
+    for a in ancestors:
+        x = str(a.label)
+        for term, label in new_labels.items():
+            if term == x[2:-2]:
+                try:
+                    s = list(onto.search_one(label=c.label).hasExactSynonym)
+                    print(s)
+                    for term in s:
+                        with open(new_dictionary, 'a') as n:
+                            n.write(term + '\t' + 'LABEL=' + label + '\t' + 'ID=' + str(c) + '\t' + 'PrefSynonym=' + c.label[0] + '\n')
+                except:
+                    print('no synonym')
+                    continue
 

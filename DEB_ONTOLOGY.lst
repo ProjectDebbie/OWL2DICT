@@ -1,0 +1,529 @@
+material processing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+architectural organization	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+structural details	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+structure	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+biomaterial	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+biomaterials	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=biomaterial
+manufactured object	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	
+manufactured object component	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+biologically active substance	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+associated biological process	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+biological process	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=associated biological process
+study type	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+effect on biological system	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+medical application	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+manufactured object features	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+biomaterial type	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+surface	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+experimental scaffold	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	
+scaffold	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	PREFSYN=experimental scaffold
+scaffolds	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	PREFSYN=experimental scaffold
+medical device	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	
+physical property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+degradation features	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=	
+abdominal fascia closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+surgical procedure	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+abscesses	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+adverse effects	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+adverseevent	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=adverse effects
+absorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=absorbable	
+acellularity	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=acellular	
+other features	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+acute inflammation	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	SYNONYM=	PROPERTY=	
+inflammatory reaction	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+inflammation	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=inflammatory reaction
+inflammatoryresponse	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=inflammatory reaction
+adhesion formation	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+adipogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+adsorption	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=adsorbed	
+coating	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=coated	
+airway stenting	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+alginate	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+alignment	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+aligned	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	PREFSYN=alignment
+alloy	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+aneurysm	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+aneurysm formation	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+angiogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+anisotropy	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+mechanical property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+mechanical properties	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	PREFSYN=mechanical property
+annealing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+anti-adhesive	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+antibacterial effect	LABEL=EffectOnBiologicalSystem	PATH=['AntimicrobialEffect', 'EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=antibacterial	
+antimicrobial effect	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=antimicrobial	
+antibiotic eluting	LABEL=MedicalApplication	PATH=['DrugDelivery', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+drug delivery	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+drug release	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	PREFSYN=drug delivery
+antibiotics	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+antimycotics	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+arthroplasty	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+tissue reconstruction	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+tissue augmentation	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	PREFSYN=tissue reconstruction
+artificial organs	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+axonal growth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell proliferation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+axonal regrowth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+BMP	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+beta glycerolphosphate	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+bi-layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+bilayer	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+bilayered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+bioactivity	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=bioactive	
+bioceramic	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+biocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=biocompatible	
+biocomposite	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+biodegradability	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=biodegradable	
+bioabsorbable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=biodegradable	PREFSYN=biodegradability
+biodegradation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=biodegradable	PREFSYN=biodegradability
+bioresorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=biodegradable	PREFSYN=biodegradability
+biofabrication	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+functionalization	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=funcionalized	
+biohybrid	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+bioinertness	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+biomineralization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=mineralized	
+biopolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+biostimulatory	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+blend	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+blending	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=blended	
+block copolymer	LABEL=BiomaterialType	PATH=['Copolymer', 'BiomaterialType']	SYNONYM=	PROPERTY=	
+copolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+bonding	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+adhesivelybonded	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	PREFSYN=bonding
+bonded	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	PREFSYN=bonding
+bone cement	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+bony ingrowth	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+braiding	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=braided	
+bulk modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+calcium phosphate cement	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+CPC	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=calcium phosphate cement
+cap coating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=	
+capillary ingrowth	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+capsule	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+cartilage autograft implantation system	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+casting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+cell adhesion	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell attachment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=cell adhesion
+cell aggregation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell colonization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell delivery	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+cell differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell encapsulation	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+microencapsulated cells	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	SYNONYM=	PROPERTY=	PREFSYN=cell encapsulation
+encapsulation	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+cell infiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell migration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell motility	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell polarization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell sheet	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+cell viability	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cellular attachment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cellular differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=cellular differentiation
+differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=cellular differentiation
+cellular infiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cellinfiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=cellular infiltration
+cellular spreading	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+cell spreading	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=cellular spreading
+cement	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+ceramic	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+chemical formula	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+chemical property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+chemodrug delivery	LABEL=MedicalApplication	PATH=['DrugDelivery', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+chemotaxis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+chemotacticactivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=chemotaxis
+chitosan	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+chondrogenic differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+chondrocyte differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=chondrogenic differentiation
+chronic inflammation	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	SYNONYM=	PROPERTY=	
+chronicinflammatorychanges	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=chronic inflammation
+circular	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+shape	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+clinical study	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+coat	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+collagen	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+collagen deposition	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+collagen secretion	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+colloid	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+colonic surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+comparative	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+complications	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+composite	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+composite graft	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+surgical implant	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	
+implant	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	PREFSYN=surgical implant
+compressive modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+compressive strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+computational	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+conditioning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=conditioned	
+conductivity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=conductive	
+contaminated wound	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+continuous suture	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+core	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+corrosion behavior	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+corrosion	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	PREFSYN=corrosion behavior
+crosslinking	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=crosslinked	
+cruciate ligament reconstruction	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+cryogel	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+cryomilling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+crystal structure	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+crystallinity	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+cube	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+custom made	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+cylinder	LABEL=Shape	PATH=['Shape']	SYNONYM=cylindrical	PROPERTY=	
+cylindrical	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+cytocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=cytocompatible	
+cytotoxicity	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=cytotoxic	
+decellularization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=decellularized	
+decellularized matrix	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+deformation	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+degradability	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=degradable	
+degradation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=degradable	PREFSYN=degradability
+degradation rate	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=	
+degradation resistance	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=	
+delayed resoption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=	
+demineralized bone matrix	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+density	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+deposition	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=	
+diameter	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+digestive surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+disk	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+distensibility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+doping	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+ductility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+EPTFE	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+edema	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+oedema	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=edema
+electrospinning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=electrospun	
+electrospraying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+endothelial differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+endothelialization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+engraftment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+enzymatic treatment	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+epithelialization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+epoxy coating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=	
+etching	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=etched	
+ex vivo	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+extrusion	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=extruded	
+femoro popliteal bypass	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+fiber	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=fibrous	
+fibers	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=fibrous	PREFSYN=fiber
+fibre	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=fibrous	PREFSYN=fiber
+fibres	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=fibrous	PREFSYN=fiber
+fiber alignment	LABEL=ArchitecturalOrganization	PATH=['Alignment', 'ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+fibroblast infiltration	LABEL=AssociatedBiologicalProcess	PATH=['CellInfiltration', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+fibroin	LABEL=Biomaterial	PATH=['Silk', 'Biomaterial']	SYNONYM=	PROPERTY=	
+silk	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+fibronectin	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+fibrotic reaction	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+filament	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+film	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+flexibility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=flexible	
+foam	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+foaming	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=foamed	
+foil	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+foreign body reaction	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+foreign body response	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+foreignbody	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=foreign body response
+formation of adhesions	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+fragmentation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=	
+freeze drying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+freeze-dried	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	PREFSYN=freeze drying
+freeze-drying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	PREFSYN=freeze drying
+gel	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+gelation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+gelling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+geometry	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+glass	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+glass-transition temperature	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+glial cell motility	LABEL=AssociatedBiologicalProcess	PATH=['CellMotility', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+glial growth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+glue	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+granule	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+groove	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=grooved	
+grooved	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=grooved	PREFSYN=groove
+growth substrate	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+substrate	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	SYNONYM=	PROPERTY=	PREFSYN=growth substrate
+headache	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+helical coil	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+hematopoietic cell differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+hemocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+heparin	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+hepatobiliary surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+hierarchical	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+human derived matrix	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+hydration	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=hydrated	
+hydrogel	LABEL=Structure	PATH=['Gel', 'Structure']	SYNONYM=	PROPERTY=	
+hydrogel expander	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+hydrophilicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=hydrophilic	
+hydrophobicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=hydrophobic	
+hydroxyapatite	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+HA	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=hydroxyapatite
+hypospadias surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+immobilization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+immunomodulatory	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+immunologicresponses	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	PREFSYN=immunomodulatory
+immunotoxicological effect	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+impermeability	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=impermeable	
+implant rejection	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+rejectionof the implant	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	PREFSYN=implant rejection
+implantable cardiovascular device	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+implantation	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+impregnating	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+impregnation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	PREFSYN=impregnating
+in vitro	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+in-vitro	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	PREFSYN=in vitro
+in vivo	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	
+in-vivo	LABEL=StudyType	PATH=['StudyType']	SYNONYM=	PROPERTY=	PREFSYN=in vivo
+pore	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+interconnectivity	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+intraperitoneal onlay mesh	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+IPOM	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	PREFSYN=intraperitoneal onlay mesh
+knitting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=knitted	
+laparoscopic intraperitoneal implantation	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+lattice	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+layer	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+layered closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+life threatening complication	LABEL=AdverseEffects	PATH=['Complications', 'AdverseEffects']	SYNONYM=	PROPERTY=	
+lipoaspirate fat	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+load to failure	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+luminal obstruction	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+macrophage functional polarization	LABEL=AssociatedBiologicalProcess	PATH=['CellPolarization', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+porosity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=porous	
+texture	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=textured	
+manufacture	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+mat	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+matrice	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+matrices	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	PREFSYN=matrice
+matrigel	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+matrix deposition	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+matrix synthesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+maximum load	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=ultimate strength	PROPERTY=	
+ultimate strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=ultimate tensile strength	PROPERTY=	
+maximum strain	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+medical textile	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	SYNONYM=	PROPERTY=	
+membrane	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+meniscal scaffold	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+mesh	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+metal	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=metallic	
+microbead	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+microcarrier	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+microfiber	LABEL=Structure	PATH=['Fiber', 'Structure']	SYNONYM=microfibre	PROPERTY=microfibrous	
+microfibre	LABEL=Structure	PATH=['Fiber', 'Structure']	SYNONYM=	PROPERTY=	
+microgel	LABEL=Structure	PATH=['Gel', 'Structure']	SYNONYM=	PROPERTY=	
+microparticle	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+microsphere	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+milling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=milled	
+molar mass	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+molecular structure	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+monofilament	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+morphology	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+multi-layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+multifilament	LABEL=Structure	PATH=['Structure']	SYNONYM=polyfilament	PROPERTY=	
+polyfilament	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+multilayer	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+multilayered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+multilineage differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+myogenic differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+nanobioglass	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+nanocoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=	
+nanocomposite	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+nanocrystal	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+nanoencapsulation	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+nanofiber	LABEL=Structure	PATH=['Fiber', 'Structure']	SYNONYM=nanofibre	PROPERTY=	
+nanofibre	LABEL=Structure	PATH=['Fiber', 'Structure']	SYNONYM=	PROPERTY=nanofibrous	
+nanohydroxyapetite	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+nanoparticle	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+nanorod	LABEL=Shape	PATH=['Rod', 'Shape']	SYNONYM=	PROPERTY=	
+rod	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+nanoroughness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+nanosphere	LABEL=Shape	PATH=['Sphere', 'Shape']	SYNONYM=	PROPERTY=	
+sphere	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+nanotopography	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+nanotube	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+nanotubular	LABEL=Shape	PATH=['Tubular', 'Shape']	SYNONYM=	PROPERTY=	
+tubular	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+nanowire	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+natural material	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+necrosis	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+neocollagenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+neo collagenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=neocollagenesis
+neotissue	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+neovascularization	LABEL=AssociatedBiologicalProcess	PATH=['Vascularization', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+vascularization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+vascularisation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=vascularization
+network	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+neuronal regeneration	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+regeneration	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+nodule formation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+non crosslinked	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+non woven	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+nonabsorbable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=permanent	
+Non-degradable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=permanent	PREFSYN=nonabsorbable
+nondegradable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=permanent	PREFSYN=nonabsorbable
+nosocomial infection	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+orientation	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+oriented	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+osseous alterations	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+osteoconductivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+osteoconduction	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=osteoconductivity
+osteogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=osteogenic	
+osteogenic differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+osteodifferentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=osteogenic differentiation
+osteogenic induction factors	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+osteoinduction	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=osteoinductive	
+osteoinductivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=osteoinductive	PREFSYN=osteoinduction
+osteointegration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+PCL	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PDSII	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	SYNONYM=	PROPERTY=	
+polydioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PDO	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+PDS	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+PDX	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+polidioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+polydioxanon	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+p-dioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+poly(dioxanone)	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+poly-dioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polydioxanone
+PLLA	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PMMA	LABEL=Biomaterial	PATH=['BoneCement', 'Biomaterial']	SYNONYM=	PROPERTY=	
+particle	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+patch	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+pepsin treatment	LABEL=MaterialProcessing	PATH=['EnzymaticTreatment', 'MaterialProcessing']	SYNONYM=	PROPERTY=	
+perforation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=perforated	
+periodontal surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+photocrosslinking	LABEL=MaterialProcessing	PATH=['Crosslinking', 'MaterialProcessing']	SYNONYM=	PROPERTY=photocrosslinked	
+pin	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+plasma treatment	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=plasmatreated	
+platelet rich plasma	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+PRP	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	PREFSYN=platelet rich plasma
+polishing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=polished	
+poly-p-dioxanone	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	SYNONYM=	PROPERTY=	
+PPDO	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=poly-p-dioxanone
+polyethylene terephthalate	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+dacron	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polyethylene terephthalate
+polyethyleneglycol	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PEG	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polyethyleneglycol
+polyglactin910	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PG910	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polyglactin910
+polyglycolic acid	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+dexon	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polyglycolic acid
+PGA	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polyglycolic acid
+polylacticacid	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PLA	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polylacticacid
+poly(d	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polylacticacid
+l-lacticacid)	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polylacticacid
+polylysine	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+polymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=polymeric	
+polymers	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=polymeric	PREFSYN=polymer
+polymeric	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=polymeric	PREFSYN=polymer
+polymerization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=polymerized	
+polytetrafluoroethylene	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PTFE	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polytetrafluoroethylene
+teflon	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=polytetrafluoroethylene
+postoperative adhesion	LABEL=AdverseEffects	PATH=['AdhesionFormation', 'AdverseEffects']	SYNONYM=	PROPERTY=	
+powder	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=powdered	
+precoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	SYNONYM=	PROPERTY=precoated	
+preconditioning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=preconditioned	
+printing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+proliferation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+prospective	LABEL=StudyType	PATH=['ClinicalStudy', 'StudyType']	SYNONYM=	PROPERTY=	
+pull out strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+purification	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+RGD	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+radial compressive strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+radialcompressionstrength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	PREFSYN=radial compressive strength
+re-endothelization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+recoarctation	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+recombinant human bone morphogenetic protein	LABEL=BiologicallyActiveSubstance	PATH=['BMP', 'BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+rhBMP	LABEL=BiologicallyActiveSubstance	PATH=['BMP', 'BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	PREFSYN=recombinant human bone morphogenetic protein
+reinforcement	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=reinforced	
+reinnervation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+re-innervation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	PREFSYN=reinnervation
+repair of skull	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+resorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	SYNONYM=	PROPERTY=resorbable	
+resurfacing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+retinal detachment	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+retrospective	LABEL=StudyType	PATH=['ClinicalStudy', 'StudyType']	SYNONYM=	PROPERTY=	
+revascularization	LABEL=AssociatedBiologicalProcess	PATH=['Vascularization', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+ring	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+roughening	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=roughened	
+sandblasting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=sandblasted	
+scaffold mineralization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+screw	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+secondary infection	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+self assembling	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+self-assembling	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	PREFSYN=self assembling
+semipermeablity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=semipermeable	
+semi-permeable	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=semipermeable	PREFSYN=semipermeablity
+septoplasty	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+sheet	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+shell	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	SYNONYM=	PROPERTY=	
+shell-core	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+si r n a	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+sintering	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=sintered	
+size	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+skin closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+skin irritation	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+sol-gel	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+spheroid	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+spidroin	LABEL=Biomaterial	PATH=['Silk', 'Biomaterial']	SYNONYM=	PROPERTY=	
+spiral	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+sponge	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=spongy	
+spring	LABEL=Shape	PATH=['Shape']	SYNONYM=	PROPERTY=	
+sputtering	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+stent insertion	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+stiffness	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+surface functionalization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+surface hydrophilicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=hydrophilic	
+surface roughness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+surface topography	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+surgical repair	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+suture	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	SYNONYM=	PROPERTY=	
+synethtic polymer	LABEL=BiomaterialType	PATH=['Polymer', 'BiomaterialType']	SYNONYM=	PROPERTY=	
+synthetic material	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+tendon healing	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+tenogenic differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	SYNONYM=	PROPERTY=	
+tensile strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=ultimate strength	PROPERTY=	
+textile	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+thermal decomposition temperature	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+thermally induced phase separation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+thermocycling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=	
+thermogel	LABEL=Structure	PATH=['Gel', 'Structure']	SYNONYM=	PROPERTY=	
+thickness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+thin film	LABEL=Structure	PATH=['Film', 'Structure']	SYNONYM=	PROPERTY=	
+thread	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+ti-6 al-4 v	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+tissue integration	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+tissue regeneration	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+titanium	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+topology	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+toughness	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+toxicity	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=toxic	
+tripolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	SYNONYM=	PROPERTY=	
+tube	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+tubes	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	PREFSYN=tube
+two-layered closure	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+type i collagen	LABEL=BiologicallyActiveSubstance	PATH=['Collagen', 'BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	
+collagen(TypeI)	LABEL=BiologicallyActiveSubstance	PATH=['Collagen', 'BiologicallyActiveSubstance']	SYNONYM=	PROPERTY=	PREFSYN=type i collagen
+ultimate tensile strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+unidirectional	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+vocal fold augmentation	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+weaving	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	SYNONYM=	PROPERTY=woven	
+wettability	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	
+wire	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+wound abscesses	LABEL=AdverseEffects	PATH=['AdverseEffects']	SYNONYM=	PROPERTY=	
+wound dressing	LABEL=MedicalApplication	PATH=['MedicalApplication']	SYNONYM=	PROPERTY=	
+wound healing	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	SYNONYM=	PROPERTY=	
+wrapped	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	SYNONYM=	PROPERTY=	
+yarn	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+bioprinting	LABEL=MaterialProcessing	PATH=['Printing', 'MaterialProcessing']	SYNONYM=	PROPERTY=bioprinted	
+osteogenicity	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	SYNONYM=	PROPERTY=	
+2-layer	LABEL=Structure	PATH=['Structure']	SYNONYM=	PROPERTY=	
+3d printing	LABEL=MaterialProcessing	PATH=['Printing', 'MaterialProcessing']	SYNONYM=	PROPERTY=3dprinted	
+poly(glycolide-co-epsilon-caprolactone)	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PGACL	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=poly(glycolide-co-epsilon-caprolactone)
+poly(glycolide:lactide)	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	
+PLGA	LABEL=Biomaterial	PATH=['Biomaterial']	SYNONYM=	PROPERTY=	PREFSYN=poly(glycolide:lactide)
+young's modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	SYNONYM=	PROPERTY=	

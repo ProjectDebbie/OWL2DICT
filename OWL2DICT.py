@@ -128,6 +128,7 @@ with open("DEB_ONTOLOGY.lst", 'w') as f:
     
     # clean all terms
     for k, v in merged.items():
+        ids = v[1]
         path = v[2]
         path = [x for x in path if x is not None]
         path = [ x for x in path if "owl.Thing" not in x ]
@@ -160,21 +161,21 @@ with open("DEB_ONTOLOGY.lst", 'w') as f:
             property = property.replace("3 D", "3D")
             property = property.replace("- ", "-")
             property = property.lower()
-        f.write(str(k) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(
+        f.write(str(k) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(
             synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + '\n')
         for i in altLab:
             if i.isupper() == True:
-                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
+                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
             elif i == 'rhBMP':
-                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
+                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
             elif '-' in i:
-                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
+                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
             elif '(' in i:
-                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
+                f.write(str(i) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
             else:
                 a = re.sub(r"([A-Z])", r" \1", i).split()
                 a = ' '.join(a)
                 a = a.lower()
-                f.write(str(a) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
+                f.write(str(a) + '\t' + 'LABEL=' + str(v[0]) + '\t' + 'PATH=' + str(path) + '\t' + 'ID=' + str(ids) + '\t' + 'SYNONYM=' + str(synonym) + '\t' + 'PROPERTY=' + str(property) + '\t' + 'PREFSYN=' + str(k) +  '\n')
 
 

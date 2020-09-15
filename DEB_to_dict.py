@@ -1,6 +1,6 @@
 
 #input to provide
-ontology = '/home/osnat/Documents/DEBBIE/GitHub/Ontology_DEB/DEB_ont.owl'
+ontology = 'DEB_location'
 new_labels = {'Biomaterial':'Biomaterial', 'AdverseEffects':'AdverseEffects',
               'Structure': 'Structure',
               'MaterialProcessing': 'MaterialProcessing',

@@ -1,0 +1,529 @@
+Material Processing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.MaterialProcessing
+Architectural Organization	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.ArchitecturalOrganization
+Structural Details	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.StructuralDetails
+Structure	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Structure
+Biomaterial	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Biomaterial
+Biomaterials	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Biomaterial	PrefSynonym=Biomaterial
+Manufactured Object	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.ManufacturedObject
+Manufactured Object Component	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.ManufacturedObjectComponent
+Biologically Active Substance	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.BiologicallyActiveSubstance
+Associated Biological Process	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.AssociatedBiologicalProcess
+Biological Process	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.AssociatedBiologicalProcess	PrefSynonym=Associated Biological Process
+Study Type	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.StudyType
+Effect On Biological System	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.EffectOnBiologicalSystem
+Medical Application	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.MedicalApplication
+Manufactured Object Features	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.ManufacturedObjectFeatures
+Biomaterial Type	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.BiomaterialType
+Surface	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.Surface
+Experimental Scaffold	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.ExperimentalScaffold
+Scaffold	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.ExperimentalScaffold	PrefSynonym=Experimental Scaffold
+scaffolds	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.ExperimentalScaffold	PrefSynonym=Experimental Scaffold
+Medical Device	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.MedicalDevice
+Physical Property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.PhysicalProperty
+Degradation Features	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.DegradationFeatures
+Abdominal Fascia Closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.AbdominalFasciaClosure
+Surgical Procedure	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.SurgicalProcedure
+Abscesses	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Abscesses
+Adverse Effects	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.AdverseEffects
+Adverseevent	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.AdverseEffects	PrefSynonym=Adverse Effects
+Absorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Absorption
+Acellularity	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Acellularity
+Other Features	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.OtherFeatures
+Acute Inflammation	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	ID=DEB_Ontology.AcuteInflammation
+Inflammatory Reaction	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.InflammatoryReaction
+Inflammation	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.InflammatoryReaction	PrefSynonym=Inflammatory Reaction
+inflammatoryresponse	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.InflammatoryReaction	PrefSynonym=Inflammatory Reaction
+Adhesion Formation	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.AdhesionFormation
+Adipogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Adipogenesis
+Adsorption	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.Adsorption
+Coating	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Coating
+Airway Stenting	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.AirwayStenting
+Alginate	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Alginate
+Alignment	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Alignment
+Aligned	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Alignment	PrefSynonym=Alignment
+Alloy	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Alloy
+Aneurysm	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Aneurysm
+Aneurysm Formation	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.AneurysmFormation
+Angiogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Angiogenesis
+Anisotropy	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Anisotropy
+Mechanical Property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.MechanicalProperty
+Mechanical Properties	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.MechanicalProperty	PrefSynonym=Mechanical Property
+Annealing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Annealing
+Anti-adhesive	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Anti-adhesive
+Antibacterial Effect	LABEL=EffectOnBiologicalSystem	PATH=['AntimicrobialEffect', 'EffectOnBiologicalSystem']	ID=DEB_Ontology.AntibacterialEffect
+Antimicrobial Effect	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.AntimicrobialEffect
+Antibiotic Eluting	LABEL=MedicalApplication	PATH=['DrugDelivery', 'MedicalApplication']	ID=DEB_Ontology.AntibioticEluting
+Drug Delivery	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.DrugDelivery
+Drug Release	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.DrugDelivery	PrefSynonym=Drug Delivery
+Antibiotics	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.Antibiotics
+Antimycotics	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.Antimycotics
+Arthroplasty	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	ID=DEB_Ontology.Arthroplasty
+Tissue Reconstruction	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.TissueReconstruction
+Tissue Augmentation	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.TissueReconstruction	PrefSynonym=Tissue Reconstruction
+Artificial Organs	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.ArtificialOrgans
+Axonal Growth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.AxonalGrowth
+Cell Proliferation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellProliferation
+Axonal Regrowth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.AxonalRegrowth
+BMP	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.BMP
+Beta Glycerolphosphate	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.BetaGlycerolphosphate
+Bi-layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Bi-layered
+Bilayer	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Bilayer
+Bilayered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Bilayered
+Bioactivity	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Bioactivity
+Bioceramic	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Bioceramic
+Biocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Biocompatibility
+Biocomposite	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Biocomposite
+Biodegradability	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Biodegradability
+Bioabsorbable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Biodegradability	PrefSynonym=Biodegradability
+Biodegradation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Biodegradability	PrefSynonym=Biodegradability
+Bioresorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Biodegradability	PrefSynonym=Biodegradability
+Biofabrication	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Biofabrication
+Functionalization	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.Functionalization
+Biohybrid	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Biohybrid
+Bioinertness	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Bioinertness
+Biomineralization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Biomineralization
+Biopolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Biopolymer
+Biostimulatory	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Biostimulatory
+Blend	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Blend
+Blending	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Blending
+Block Copolymer	LABEL=BiomaterialType	PATH=['Copolymer', 'BiomaterialType']	ID=DEB_Ontology.BlockCopolymer
+Copolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Copolymer
+Bonding	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Bonding
+adhesivelybonded	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Bonding	PrefSynonym=Bonding
+bonded	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Bonding	PrefSynonym=Bonding
+Bone Cement	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.BoneCement
+Bony Ingrowth	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.BonyIngrowth
+Braiding	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Braiding
+Bulk Modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.BulkModulus
+Calcium Phosphate Cement	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.CalciumPhosphateCement
+CPC	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.CalciumPhosphateCement	PrefSynonym=Calcium Phosphate Cement
+Cap Coating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.CapCoating
+Capillary Ingrowth	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CapillaryIngrowth
+Capsule	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Capsule
+Cartilage Autograft Implantation System	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	ID=DEB_Ontology.CartilageAutograftImplantationSystem
+Casting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Casting
+Cell Adhesion	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellAdhesion
+Cell Attachment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellAdhesion	PrefSynonym=Cell Adhesion
+Cell Aggregation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellAggregation
+Cell Colonization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellColonization
+Cell Delivery	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.CellDelivery
+Cell Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellDifferentiation
+Cell Encapsulation	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	ID=DEB_Ontology.CellEncapsulation
+Microencapsulated Cells	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	ID=DEB_Ontology.CellEncapsulation	PrefSynonym=Cell Encapsulation
+Encapsulation	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Encapsulation
+Cell Infiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellInfiltration
+Cell Migration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellMigration
+Cell Motility	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellMotility
+Cell Polarization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellPolarization
+Cell Sheet	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.CellSheet
+Cell Viability	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellViability
+Cellular Attachment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularAttachment
+Cellular Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularDifferentiation
+Cell Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularDifferentiation	PrefSynonym=Cellular Differentiation
+Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularDifferentiation	PrefSynonym=Cellular Differentiation
+Cellular Infiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularInfiltration
+cellinfiltration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularInfiltration	PrefSynonym=Cellular Infiltration
+Cellular Spreading	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularSpreading
+Cell Spreading	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CellularSpreading	PrefSynonym=Cellular Spreading
+Cement	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	ID=DEB_Ontology.Cement
+Ceramic	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Ceramic
+Chemical Formula	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.ChemicalFormula
+Chemical Property	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.ChemicalProperty
+Chemodrug Delivery	LABEL=MedicalApplication	PATH=['DrugDelivery', 'MedicalApplication']	ID=DEB_Ontology.ChemodrugDelivery
+Chemotaxis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Chemotaxis
+Chemotacticactivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Chemotaxis	PrefSynonym=Chemotaxis
+Chitosan	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Chitosan
+Chondrogenic Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.ChondrogenicDifferentiation
+Chondrocyte Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.ChondrogenicDifferentiation	PrefSynonym=Chondrogenic Differentiation
+Chronic Inflammation	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	ID=DEB_Ontology.ChronicInflammation
+chronicinflammatorychanges	LABEL=AdverseEffects	PATH=['InflammatoryReaction', 'AdverseEffects']	ID=DEB_Ontology.ChronicInflammation	PrefSynonym=Chronic Inflammation
+Circular	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Circular
+Shape	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Shape
+Clinical Study	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.ClinicalStudy
+Coat	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.Coat
+Collagen	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.Collagen
+Collagen Deposition	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CollagenDeposition
+Collagen Secretion	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.CollagenSecretion
+Colloid	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Colloid
+Colonic Surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.ColonicSurgery
+Comparative	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.Comparative
+Complications	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Complications
+Composite	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Composite
+Composite Graft	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.CompositeGraft
+Surgical Implant	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.SurgicalImplant
+Implant	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.SurgicalImplant	PrefSynonym=Surgical Implant
+Compressive Modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CompressiveModulus
+Compressive Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CompressiveStrength
+Computational	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.Computational
+Conditioning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Conditioning
+Conductivity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Conductivity
+Contaminated Wound	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ContaminatedWound
+Continuous Suture	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.ContinuousSuture
+Core	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.Core
+Corrosion Behavior	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CorrosionBehavior
+Corrosion	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CorrosionBehavior	PrefSynonym=Corrosion Behavior
+Crosslinking	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Crosslinking
+Cruciate Ligament Reconstruction	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	ID=DEB_Ontology.CruciateLigamentReconstruction
+Cryogel	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Cryogel
+Cryomilling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Cryomilling
+Crystal Structure	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CrystalStructure
+Crystallinity	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Crystallinity
+Cube	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Cube
+Custom Made	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.CustomMade
+Cylinder	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Cylinder
+Cylindrical	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Cylindrical
+Cytocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Cytocompatibility
+Cytotoxicity	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Cytotoxicity
+Decellularization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Decellularization
+Decellularized Matrix	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.DecellularizedMatrix
+Deformation	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Deformation
+Degradability	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Degradability
+Degradation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Degradability	PrefSynonym=Degradability
+Degradation Rate	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.DegradationRate
+Degradation Resistance	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.DegradationResistance
+Delayed Resoption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.DelayedResoption
+Demineralized Bone Matrix	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.DemineralizedBoneMatrix
+Density	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Density
+Deposition	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.Deposition
+Diameter	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Diameter
+Digestive Surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.DigestiveSurgery
+Disk	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Disk
+Distensibility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Distensibility
+Doping	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Doping
+Ductility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Ductility
+EPTFE	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.EPTFE
+Edema	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Edema
+Oedema	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Edema	PrefSynonym=Edema
+Electrospinning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Electrospinning
+Electrospraying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Electrospraying
+Endothelial Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.EndothelialDifferentiation
+Endothelialization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Endothelialization
+Engraftment	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Engraftment
+Enzymatic Treatment	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.EnzymaticTreatment
+Epithelialization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Epithelialization
+Epoxy Coating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.EpoxyCoating
+Etching	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Etching
+Ex Vivo	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.ExVivo
+Extrusion	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Extrusion
+Femoro Popliteal Bypass	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.FemoroPoplitealBypass
+Fiber	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Fiber
+Fibers	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Fiber	PrefSynonym=Fiber
+Fibre	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Fiber	PrefSynonym=Fiber
+Fibres	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Fiber	PrefSynonym=Fiber
+Fiber Alignment	LABEL=ArchitecturalOrganization	PATH=['Alignment', 'ArchitecturalOrganization']	ID=DEB_Ontology.FiberAlignment
+Fibroblast Infiltration	LABEL=AssociatedBiologicalProcess	PATH=['CellInfiltration', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.FibroblastInfiltration
+Fibroin	LABEL=Biomaterial	PATH=['Silk', 'Biomaterial']	ID=DEB_Ontology.Fibroin
+Silk	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Silk
+Fibronectin	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.Fibronectin
+Fibrotic Reaction	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.FibroticReaction
+Filament	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Filament
+Film	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Film
+Flexibility	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Flexibility
+Foam	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Foam
+Foaming	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Foaming
+Foil	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Foil
+Foreign Body Reaction	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.ForeignBodyReaction
+Foreign Body Response	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ForeignBodyResponse
+Foreignbody	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ForeignBodyResponse	PrefSynonym=Foreign Body Response
+Formation Of Adhesions	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.FormationOfAdhesions
+Fragmentation	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Fragmentation
+Freeze Drying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.FreezeDrying
+freeze-dried	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.FreezeDrying	PrefSynonym=Freeze Drying
+freeze-drying	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.FreezeDrying	PrefSynonym=Freeze Drying
+Gel	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Gel
+Gelation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Gelation
+Gelling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Gelling
+Geometry	LABEL=ManufacturedObjectFeatures	PATH=['ManufacturedObjectFeatures']	ID=DEB_Ontology.Geometry
+Glass	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Glass
+Glass-transition Temperature	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Glass-transitionTemperature
+Glial Cell Motility	LABEL=AssociatedBiologicalProcess	PATH=['CellMotility', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.GlialCellMotility
+Glial Growth	LABEL=AssociatedBiologicalProcess	PATH=['CellProliferation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.GlialGrowth
+Glue	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Glue
+Granule	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Granule
+Groove	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Groove
+grooved	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Groove	PrefSynonym=Groove
+Growth Substrate	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	ID=DEB_Ontology.GrowthSubstrate
+substrate	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	ID=DEB_Ontology.GrowthSubstrate	PrefSynonym=Growth Substrate
+Headache	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Headache
+Helical Coil	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.HelicalCoil
+Hematopoietic Cell Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.HematopoieticCellDifferentiation
+Hemocompatibility	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Hemocompatibility
+Heparin	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.Heparin
+Hepatobiliary Surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.HepatobiliarySurgery
+Hierarchical	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Hierarchical
+Human Derived Matrix	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.HumanDerivedMatrix
+Hydration	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Hydration
+Hydrogel	LABEL=Structure	PATH=['Gel', 'Structure']	ID=DEB_Ontology.Hydrogel
+Hydrogel Expander	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.HydrogelExpander
+Hydrophilicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Hydrophilicity
+Hydrophobicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Hydrophobicity
+Hydroxyapatite	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Hydroxyapatite
+HA	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Hydroxyapatite	PrefSynonym=Hydroxyapatite
+Hypospadias Surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.HypospadiasSurgery
+Immobilization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Immobilization
+Immunomodulatory	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Immunomodulatory
+Immunologicresponses	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.Immunomodulatory	PrefSynonym=Immunomodulatory
+Immunotoxicological Effect	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ImmunotoxicologicalEffect
+Impermeability	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Impermeability
+Implant Rejection	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ImplantRejection
+Rejectionof The Implant	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.ImplantRejection	PrefSynonym=Implant Rejection
+Implantable Cardiovascular Device	LABEL=ManufacturedObject	PATH=['MedicalDevice', 'ManufacturedObject']	ID=DEB_Ontology.ImplantableCardiovascularDevice
+Implantation	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Implantation
+Impregnating	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Impregnating
+Impregnation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Impregnating	PrefSynonym=Impregnating
+In Vitro	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.InVitro
+in-vitro	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.InVitro	PrefSynonym=In Vitro
+In Vivo	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.InVivo
+in-vivo	LABEL=StudyType	PATH=['StudyType']	ID=DEB_Ontology.InVivo	PrefSynonym=In Vivo
+Pore	LABEL=ManufacturedObjectFeatures	PATH=['StructuralDetails', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Pore
+Interconnectivity	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Interconnectivity
+Intraperitoneal Onlay Mesh	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.IntraperitonealOnlayMesh
+IPOM	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.IntraperitonealOnlayMesh	PrefSynonym=Intraperitoneal Onlay Mesh
+Knitting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Knitting
+Laparoscopic Intraperitoneal Implantation	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.LaparoscopicIntraperitonealImplantation
+Lattice	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Lattice
+Layer	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.Layer
+Layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Layered
+Layered Closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.LayeredClosure
+Life Threatening Complication	LABEL=AdverseEffects	PATH=['Complications', 'AdverseEffects']	ID=DEB_Ontology.LifeThreateningComplication
+Lipoaspirate Fat	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.LipoaspirateFat
+Load To Failure	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.LoadToFailure
+Luminal Obstruction	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.LuminalObstruction
+Macrophage Functional Polarization	LABEL=AssociatedBiologicalProcess	PATH=['CellPolarization', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.MacrophageFunctionalPolarization
+Porosity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Porosity
+Texture	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Texture
+Manufacture	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Manufacture
+Mat	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Mat
+Matrice	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Matrice
+Matrices	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Matrice	PrefSynonym=Matrice
+Matrigel	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Matrigel
+Matrix Deposition	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.MatrixDeposition
+Matrix Synthesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.MatrixSynthesis
+Maximum Load	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.MaximumLoad
+Ultimate Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.UltimateStrength
+Maximum Strain	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.MaximumStrain
+Medical Textile	LABEL=ManufacturedObject	PATH=['ManufacturedObject']	ID=DEB_Ontology.MedicalTextile
+Membrane	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Membrane
+Meniscal Scaffold	LABEL=ManufacturedObject	PATH=['ExperimentalScaffold', 'ManufacturedObject']	ID=DEB_Ontology.MeniscalScaffold
+Mesh	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Mesh
+Metal	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Metal
+Microbead	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Microbead
+Microcarrier	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Microcarrier
+Microfiber	LABEL=Structure	PATH=['Fiber', 'Structure']	ID=DEB_Ontology.Microfiber
+Microfibre	LABEL=Structure	PATH=['Fiber', 'Structure']	ID=DEB_Ontology.Microfibre
+Microgel	LABEL=Structure	PATH=['Gel', 'Structure']	ID=DEB_Ontology.Microgel
+Microparticle	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Microparticle
+Microsphere	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Microsphere
+Milling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Milling
+Molar Mass	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.MolarMass
+Molecular Structure	LABEL=ManufacturedObjectFeatures	PATH=['ChemicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.MolecularStructure
+Monofilament	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Monofilament
+Morphology	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Morphology
+Multi-layered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Multi-layered
+Multifilament	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Multifilament
+Polyfilament	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Polyfilament
+Multilayer	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Multilayer
+Multilayered	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Multilayered
+Multilineage Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.MultilineageDifferentiation
+Myogenic Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.MyogenicDifferentiation
+Nanobioglass	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Nanobioglass
+Nanocoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.Nanocoating
+Nanocomposite	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Nanocomposite
+Nanocrystal	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Nanocrystal
+Nanoencapsulation	LABEL=MedicalApplication	PATH=['Encapsulation', 'MedicalApplication']	ID=DEB_Ontology.Nanoencapsulation
+Nanofiber	LABEL=Structure	PATH=['Fiber', 'Structure']	ID=DEB_Ontology.Nanofiber
+Nanofibre	LABEL=Structure	PATH=['Fiber', 'Structure']	ID=DEB_Ontology.Nanofibre
+Nanohydroxyapetite	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Nanohydroxyapetite
+Nanoparticle	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Nanoparticle
+Nanorod	LABEL=Shape	PATH=['Rod', 'Shape']	ID=DEB_Ontology.Nanorod
+Rod	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Rod
+Nanoroughness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Nanoroughness
+Nanosphere	LABEL=Shape	PATH=['Sphere', 'Shape']	ID=DEB_Ontology.Nanosphere
+Sphere	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Sphere
+Nanotopography	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Nanotopography
+Nanotube	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Nanotube
+Nanotubular	LABEL=Shape	PATH=['Tubular', 'Shape']	ID=DEB_Ontology.Nanotubular
+Tubular	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Tubular
+Nanowire	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Nanowire
+Natural Material	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.NaturalMaterial
+Necrosis	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Necrosis
+Neocollagenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Neocollagenesis
+Neo Collagenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Neocollagenesis	PrefSynonym=Neocollagenesis
+Neotissue	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Neotissue
+Neovascularization	LABEL=AssociatedBiologicalProcess	PATH=['Vascularization', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.Neovascularization
+Vascularization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Vascularization
+Vascularisation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Vascularization	PrefSynonym=Vascularization
+Network	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Network
+Neuronal Regeneration	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	ID=DEB_Ontology.NeuronalRegeneration
+Regeneration	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Regeneration
+Nodule Formation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.NoduleFormation
+Non Crosslinked	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.NonCrosslinked
+Non Woven	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.NonWoven
+Nonabsorbable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Nonabsorbable
+Non-degradable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Nonabsorbable	PrefSynonym=Nonabsorbable
+Nondegradable	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Nonabsorbable	PrefSynonym=Nonabsorbable
+Nosocomial Infection	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.NosocomialInfection
+Orientation	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Orientation
+Oriented	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Oriented
+Osseous Alterations	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.OsseousAlterations
+Osteoconductivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteoconductivity
+Osteoconduction	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteoconductivity	PrefSynonym=Osteoconductivity
+Osteogenesis	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteogenesis
+Osteogenic Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.OsteogenicDifferentiation
+Osteodifferentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.OsteogenicDifferentiation	PrefSynonym=Osteogenic Differentiation
+Osteogenic Induction Factors	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.OsteogenicInductionFactors
+Osteoinduction	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteoinduction
+osteoinductivity	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteoinduction	PrefSynonym=Osteoinduction
+Osteointegration	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Osteointegration
+PCL	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PCL
+PDSII	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	ID=DEB_Ontology.PDSII
+Polydioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone
+PDO	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+PDS	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+PDX	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+Polidioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+Polydioxanon	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+p-dioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+poly(dioxanone)	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+poly-dioxanone	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polydioxanone	PrefSynonym=Polydioxanone
+PLLA	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PLLA
+PMMA	LABEL=Biomaterial	PATH=['BoneCement', 'Biomaterial']	ID=DEB_Ontology.PMMA
+Particle	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Particle
+Patch	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.Patch
+Pepsin Treatment	LABEL=MaterialProcessing	PATH=['EnzymaticTreatment', 'MaterialProcessing']	ID=DEB_Ontology.PepsinTreatment
+Perforation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Perforation
+Periodontal Surgery	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.PeriodontalSurgery
+Photocrosslinking	LABEL=MaterialProcessing	PATH=['Crosslinking', 'MaterialProcessing']	ID=DEB_Ontology.Photocrosslinking
+Pin	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.Pin
+Plasma Treatment	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.PlasmaTreatment
+Platelet Rich Plasma	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.PlateletRichPlasma
+PRP	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.PlateletRichPlasma	PrefSynonym=Platelet Rich Plasma
+Polishing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Polishing
+Poly-p-dioxanone	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	ID=DEB_Ontology.Poly-p-dioxanone
+PPDO	LABEL=Biomaterial	PATH=['Polydioxanone', 'Biomaterial']	ID=DEB_Ontology.Poly-p-dioxanone	PrefSynonym=Poly-p-dioxanone
+Polyethylene Terephthalate	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PolyethyleneTerephthalate
+Dacron	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PolyethyleneTerephthalate	PrefSynonym=Polyethylene Terephthalate
+Polyethyleneglycol	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polyethyleneglycol
+PEG	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polyethyleneglycol	PrefSynonym=Polyethyleneglycol
+Polyglactin910	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polyglactin910
+PG910	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polyglactin910	PrefSynonym=Polyglactin910
+Polyglycolic Acid	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PolyglycolicAcid
+Dexon	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PolyglycolicAcid	PrefSynonym=Polyglycolic Acid
+PGA	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.PolyglycolicAcid	PrefSynonym=Polyglycolic Acid
+Polylacticacid	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polylacticacid
+PLA	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polylacticacid	PrefSynonym=Polylacticacid
+poly(d	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polylacticacid	PrefSynonym=Polylacticacid
+l-lacticacid)	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polylacticacid	PrefSynonym=Polylacticacid
+Polylysine	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polylysine
+Polymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Polymer
+Polymers	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Polymer	PrefSynonym=Polymer
+polymeric	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Polymer	PrefSynonym=Polymer
+Polymerization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Polymerization
+Polytetrafluoroethylene	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polytetrafluoroethylene
+PTFE	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polytetrafluoroethylene	PrefSynonym=Polytetrafluoroethylene
+Teflon	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Polytetrafluoroethylene	PrefSynonym=Polytetrafluoroethylene
+Postoperative Adhesion	LABEL=AdverseEffects	PATH=['AdhesionFormation', 'AdverseEffects']	ID=DEB_Ontology.PostoperativeAdhesion
+Powder	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Powder
+Precoating	LABEL=MaterialProcessing	PATH=['Coating', 'MaterialProcessing']	ID=DEB_Ontology.Precoating
+Preconditioning	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Preconditioning
+Printing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Printing
+Proliferation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Proliferation
+Prospective	LABEL=StudyType	PATH=['ClinicalStudy', 'StudyType']	ID=DEB_Ontology.Prospective
+Pull Out Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.PullOutStrength
+Purification	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Purification
+RGD	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.RGD
+Radial Compressive Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.RadialCompressiveStrength
+Radialcompressionstrength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.RadialCompressiveStrength	PrefSynonym=Radial Compressive Strength
+Re-endothelization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Re-endothelization
+Recoarctation	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Recoarctation
+Recombinant Human Bone Morphogenetic Protein	LABEL=BiologicallyActiveSubstance	PATH=['BMP', 'BiologicallyActiveSubstance']	ID=DEB_Ontology.RecombinantHumanBoneMorphogeneticProtein
+rhBMP	LABEL=BiologicallyActiveSubstance	PATH=['BMP', 'BiologicallyActiveSubstance']	ID=DEB_Ontology.RecombinantHumanBoneMorphogeneticProtein	PrefSynonym=Recombinant Human Bone Morphogenetic Protein
+Reinforcement	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Reinforcement
+Reinnervation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Reinnervation
+re-innervation	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.Reinnervation	PrefSynonym=Reinnervation
+Repair Of Skull	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.RepairOfSkull
+Resorption	LABEL=DegradationFeatures	PATH=['DegradationFeatures']	ID=DEB_Ontology.Resorption
+Resurfacing	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Resurfacing
+Retinal Detachment	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.RetinalDetachment
+Retrospective	LABEL=StudyType	PATH=['ClinicalStudy', 'StudyType']	ID=DEB_Ontology.Retrospective
+Revascularization	LABEL=AssociatedBiologicalProcess	PATH=['Vascularization', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.Revascularization
+Ring	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Ring
+Roughening	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Roughening
+Sandblasting	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Sandblasting
+Scaffold Mineralization	LABEL=AssociatedBiologicalProcess	PATH=['AssociatedBiologicalProcess']	ID=DEB_Ontology.ScaffoldMineralization
+Screw	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.Screw
+Secondary Infection	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.SecondaryInfection
+Self Assembling	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.SelfAssembling
+self-assembling	LABEL=ManufacturedObjectFeatures	PATH=['OtherFeatures', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.SelfAssembling	PrefSynonym=Self Assembling
+Semipermeablity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Semipermeablity
+semi-permeable	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Semipermeablity	PrefSynonym=Semipermeablity
+Septoplasty	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.Septoplasty
+Sheet	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Sheet
+Shell	LABEL=ManufacturedObjectComponent	PATH=['ManufacturedObjectComponent']	ID=DEB_Ontology.Shell
+Shell-core	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Shell-core
+Si R N A	LABEL=BiologicallyActiveSubstance	PATH=['BiologicallyActiveSubstance']	ID=DEB_Ontology.SiRNA
+Sintering	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Sintering
+Size	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Size
+Skin Closure	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.SkinClosure
+Skin Irritation	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.SkinIrritation
+Sol-gel	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Sol-gel
+Spheroid	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Spheroid
+Spidroin	LABEL=Biomaterial	PATH=['Silk', 'Biomaterial']	ID=DEB_Ontology.Spidroin
+Spiral	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Spiral
+Sponge	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Sponge
+Spring	LABEL=Shape	PATH=['Shape']	ID=DEB_Ontology.Spring
+Sputtering	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Sputtering
+Stent Insertion	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.StentInsertion
+Stiffness	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Stiffness
+Surface Functionalization	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.SurfaceFunctionalization
+Surface Hydrophilicity	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.SurfaceHydrophilicity
+Surface Roughness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.SurfaceRoughness
+Surface Topography	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.SurfaceTopography
+Surgical Repair	LABEL=MedicalApplication	PATH=['SurgicalProcedure', 'MedicalApplication']	ID=DEB_Ontology.SurgicalRepair
+Suture	LABEL=ManufacturedObject	PATH=['SurgicalImplant', 'ManufacturedObject']	ID=DEB_Ontology.Suture
+Synethtic Polymer	LABEL=BiomaterialType	PATH=['Polymer', 'BiomaterialType']	ID=DEB_Ontology.SynethticPolymer
+Synthetic Material	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.SyntheticMaterial
+Tendon Healing	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	ID=DEB_Ontology.TendonHealing
+Tenogenic Differentiation	LABEL=AssociatedBiologicalProcess	PATH=['CellDifferentiation', 'AssociatedBiologicalProcess']	ID=DEB_Ontology.TenogenicDifferentiation
+Tensile Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.TensileStrength
+Textile	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Textile
+Thermal Decomposition Temperature	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.ThermalDecompositionTemperature
+Thermally Induced Phase Separation	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.ThermallyInducedPhaseSeparation
+Thermocycling	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Thermocycling
+Thermogel	LABEL=Structure	PATH=['Gel', 'Structure']	ID=DEB_Ontology.Thermogel
+Thickness	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Thickness
+Thin Film	LABEL=Structure	PATH=['Film', 'Structure']	ID=DEB_Ontology.ThinFilm
+Thread	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Thread
+Ti-6 Al-4 V	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Ti-6Al-4V
+Tissue Integration	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.TissueIntegration
+Tissue Regeneration	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.TissueRegeneration
+Titanium	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Titanium
+Topology	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Topology
+Toughness	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Toughness
+Toxicity	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.Toxicity
+Tripolymer	LABEL=BiomaterialType	PATH=['BiomaterialType']	ID=DEB_Ontology.Tripolymer
+Tube	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Tube
+tubes	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Tube	PrefSynonym=Tube
+Two-layered Closure	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.Two-layeredClosure
+Type I Collagen	LABEL=BiologicallyActiveSubstance	PATH=['Collagen', 'BiologicallyActiveSubstance']	ID=DEB_Ontology.TypeICollagen
+collagen(TypeI)	LABEL=BiologicallyActiveSubstance	PATH=['Collagen', 'BiologicallyActiveSubstance']	ID=DEB_Ontology.TypeICollagen	PrefSynonym=Type I Collagen
+Ultimate Tensile Strength	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.UltimateTensileStrength
+Unidirectional	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Unidirectional
+Vocal Fold Augmentation	LABEL=MedicalApplication	PATH=['TissueReconstruction', 'MedicalApplication']	ID=DEB_Ontology.VocalFoldAugmentation
+Weaving	LABEL=MaterialProcessing	PATH=['MaterialProcessing']	ID=DEB_Ontology.Weaving
+Wettability	LABEL=ManufacturedObjectFeatures	PATH=['PhysicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Wettability
+Wire	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Wire
+Wound Abscesses	LABEL=AdverseEffects	PATH=['AdverseEffects']	ID=DEB_Ontology.WoundAbscesses
+Wound Dressing	LABEL=MedicalApplication	PATH=['MedicalApplication']	ID=DEB_Ontology.WoundDressing
+Wound Healing	LABEL=MedicalApplication	PATH=['Regeneration', 'MedicalApplication']	ID=DEB_Ontology.WoundHealing
+Wrapped	LABEL=ArchitecturalOrganization	PATH=['ArchitecturalOrganization']	ID=DEB_Ontology.Wrapped
+Yarn	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.Yarn
+bioprinting	LABEL=MaterialProcessing	PATH=['Printing', 'MaterialProcessing']	ID=DEB_Ontology.bioprinting
+osteogenicity	LABEL=EffectOnBiologicalSystem	PATH=['EffectOnBiologicalSystem']	ID=DEB_Ontology.osteogenicity
+2-Layer	LABEL=Structure	PATH=['Structure']	ID=DEB_Ontology.2-Layer
+3D Printing	LABEL=MaterialProcessing	PATH=['Printing', 'MaterialProcessing']	ID=DEB_Ontology.3DPrinting
+Poly(glycolide-co-epsilon-caprolactone)	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Poly(glycolide-co-epsilon-caprolactone)
+PGACL	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Poly(glycolide-co-epsilon-caprolactone)	PrefSynonym=Poly(glycolide-co-epsilon-caprolactone)
+Poly(glycolide:lactide)	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Poly(glycolide:lactide)
+PLGA	LABEL=Biomaterial	PATH=['Biomaterial']	ID=DEB_Ontology.Poly(glycolide:lactide)	PrefSynonym=Poly(glycolide:lactide)
+Young's Modulus	LABEL=ManufacturedObjectFeatures	PATH=['MechanicalProperty', 'ManufacturedObjectFeatures']	ID=DEB_Ontology.Young'sModulus

@@ -52,7 +52,6 @@ Udon    Label: Japanese
 **Austin McKitrick, Javi Corvi and Osnat Hakimi** 
 
 
-
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details
@@ -60,3 +59,7 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * This tool is related to Javi Corvi's send\_terminology\_retrieval tool (https://github.com/javicorvi/send\_terminology\_retrieval)
+
+## Funding
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 751277
